@@ -137,6 +137,30 @@ Navigation Bar
     font-size:90%;
     line-height: 145%;
 }
+/* Sponsor Section */
+.steps-box
+{
+    margin-top:30px;
+    padding-left:3%;
+}
+.sponsor-step
+{
+    margin-bottom:50px;
+}
+.sponsor-step div
+{
+    color:#E67E22;
+    border:2px solid #E67E22;
+    display:inline-block;
+    border-radius: 50%;
+    height: 60px;
+    width:60px;
+    text-align: center;
+    padding:5px;
+    float:left;
+    font-size:150%;
+    margin-right:25px;
+}
 /* Icons */
 .icon-lg
 {
