@@ -169,3 +169,52 @@ Navigation Bar
     color:#E67E22;
     margin-bottom: 10px;
 }
+/*
+Footer
+*/
+footer
+{
+    clear: both;
+    background-color:#333;
+    color:#E67E22;
+    padding:50px;
+}
+.footer-nav
+{
+    list-style-type: none;
+    float:left;
+}
+.social-links
+{
+    list-style-type: none;
+    float:right;
+}
+.footer-nav li, .social-links li
+{
+    display:inline-block;
+    margin-right: 20px;
+}
+.footer-nav a:link, .social-links a:link,
+.footer-nav a:visited, .social-links a:visited
+{
+    color:#888;
+    border:0;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+.footer-nav a:hover, .social-links a:hover
+{
+    color:#ddd;
+    text-decoration: none;
+}
+.footer-nav li:last-child, .social-links li:last-child
+{
+    margin:0;
+}
+footer p
+{
+    color:#888;
+    text-align: center;
+    font-size:90%;
+    margin-top:50px;
+}
