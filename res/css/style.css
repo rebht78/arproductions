@@ -211,10 +211,30 @@ footer
 {
     margin:0;
 }
-footer p
+.copyright
 {
     color:#888;
     text-align: center;
     font-size:90%;
-    margin-top:50px;
+    margin-top:80px;
+}
+.icon-fb,.icon-twitter,.icon-instagram,.icon-linkedin
+{
+    transition:color 0.2s;
+}
+.icon-fb:hover
+{
+    color:#3B5998;
+}
+.icon-twitter:hover
+{
+    color:#00ACED;
+}
+.icon-instagram:hover
+{
+    color:#517FA4;
+}
+.icon-linkedin:hover
+{
+    color:#0077b5;
 }
