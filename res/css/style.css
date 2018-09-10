@@ -138,7 +138,17 @@ Navigation Bar
     font-size:90%;
     line-height: 145%;
 }
+/* Contact Section */
+.section-contact 
+{
+    clear:both;
+}
 /* Sponsor Section */
+.section-sponsor
+{
+    clear:both;
+    margin:40px 0;
+}
 .steps-box
 {
     margin-top:30px;
