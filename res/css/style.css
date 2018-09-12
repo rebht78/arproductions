@@ -171,7 +171,6 @@ textarea
 }
 .steps-box
 {
-    margin-top:30px;
     padding-left:3%;
 }
 .sponsor-step
@@ -186,11 +185,15 @@ textarea
     border-radius: 50%;
     height: 60px;
     width:60px;
-    text-align: center;
+    text-align:center;
     padding:5px;
     float:left;
     font-size:150%;
     margin-right:25px;
+}
+.sponsor-step p
+{
+    padding-top:15px;
 }
 /* Icons */
 .icon-lg
