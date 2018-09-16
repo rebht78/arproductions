@@ -23,6 +23,7 @@
         margin-top:10px;
     }
     .contact-form {width:80%;}
+    blockquote {margin-top:20px;}
 }
 /* Small Tablets from 481 to 767px */
 @media only screen and (max-width:767px) 
@@ -30,16 +31,35 @@
     body { font-size:16px;}
     section { padding: 10px 0; }
     .row,.bg-text-box { padding: 0 4%; }
-    .col { width: 100%; }
     .main-nav {display: none; }
     .long-text
     {
         width:100%;
         margin-left:0%;
     }
+    h1 {font-size:180%;}
+    h2 {font-size:150%;}
+    .steps-box
+    {
+        margin-top:7px;
+    }
+    .sponsor-step div
+    {
+        height: 40px;
+        width:40px;
+        padding:4px;
+        float:left;
+        margin-right:15px;
+    }
+    .sponsor-step { margin-bottom: 30px; }
+
 }
 /* Small Phones from 0 to 480px */
 @media only screen and (max-width:480px) 
 {
-
+    section { padding: 25px 0;}
+    .section-testimonials {
+        display: none;
+    }
+    .contact-form {width: 100%; }
 }
