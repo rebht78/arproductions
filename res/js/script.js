@@ -1,11 +1,7 @@
-var menu_nav = document.getElementById('menu_nav');
+$(document).ready(function() {
 
-var sticky = menu_nav.offsetTop;
-
-window.onscroll = function() {
-    if (window.pageYOffset >= sticky) {
-        menu_nav.classList.add("sticky")
-      } else {
-        menu_nav.classList.remove("sticky");
-      }
-};
+    /* Scrolling Effects */
+    $('.js--scroll-to-services').click(function() {
+      $('html,body').animate({scrollTop:$('.js--section-services').offset().top},1000);
+    });
+});
