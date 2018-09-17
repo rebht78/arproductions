@@ -58,8 +58,5 @@
 @media only screen and (max-width:480px) 
 {
     section { padding: 25px 0;}
-    .section-testimonials {
-        display: none;
-    }
     .contact-form {width: 100%; }
 }
