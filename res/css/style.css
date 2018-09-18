@@ -127,6 +127,18 @@ Navigation Bar
 {
     border-bottom: 2px solid #E67E22;
 }
+.mobile-nav-icon
+{
+    float:right;
+    margin-top:16px;
+    cursor: pointer;
+    display: none;
+}
+.menu-icon
+{
+    font-size:200%;
+    color:white;
+}
 .sticky
 {
     position:fixed;
