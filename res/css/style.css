@@ -301,14 +301,6 @@ footer
 }
 
 /* Testimonials Section */
-.section-testimonials
-{
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/ar_bg2.jpg);
-    background-size: cover;
-    color:#fff;
-    height: 360px;
-    background-attachment: fixed;
-}
 blockquote
 {
     padding:2%;
